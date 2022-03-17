@@ -154,3 +154,23 @@ function import_source_record_id_civicrm_themes(&$themes)
 {
     _import_source_record_id_civix_civicrm_themes($themes);
 }
+
+// The following hooks are implemented by us
+
+/**
+ * Implements hook_civicrm_navigationMenu().
+ *
+ * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_navigationMenu
+ */
+function import_source_record_id_civicrm_navigationMenu(&$menu)
+{
+    _import_source_record_id_civix_insert_navigation_menu($menu, 'Contacts', [
+        'label' => E::ts('Import Activities (source record ID)'),
+        'name' => 'import_activity_source_record_id',
+        'url' => 'civicrm/activity/import/source-record-id',
+        'permission' => 'import contacts,access CiviCRM',
+        'operator' => 'and',
+        'separator' => 0,
+    ]);
+    _import_source_record_id_civix_navigationMenu($menu);
+}

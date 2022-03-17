@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/activity/import/source-record-id</path>
+    <page_callback>CRM_ImportSourceRecordId_Activity_SourceRecordId_Controller</page_callback>
+    <title>Import Activities</title>
+    <access_arguments>import contacts,access CiviCRM</access_arguments>
+    <page_type>1</page_type>
+  </item>
+</menu>
