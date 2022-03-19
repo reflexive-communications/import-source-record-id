@@ -1,12 +1,9 @@
 <?php
 
-use CRM_CustomImports_ExtensionUtil as E;
 use Civi\Test\HeadlessInterface;
 use Civi\Test\HookInterface;
 use Civi\Test\TransactionalInterface;
 use Civi\Test\CiviEnvBuilder;
-use Civi\Api4\CustomGroup;
-use Civi\Api4\CustomField;
 
 /**
  * Base testclass to eliminate the code duplication.

@@ -1,7 +1,5 @@
 <?php
 
-use CRM_CustomImports_ExtensionUtil as E;
-
 /**
  * Testcases for the preview form.
  *
