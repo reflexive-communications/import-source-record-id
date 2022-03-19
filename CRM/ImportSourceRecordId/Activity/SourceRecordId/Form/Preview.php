@@ -20,7 +20,7 @@ class CRM_ImportSourceRecordId_Activity_SourceRecordId_Form_Preview extends CRM_
     $conflictRowCount = $this->get('conflictRowCount');
     $onDuplicate = $this->get('onDuplicate');
 
-    $mapper = $this->controller->exportValue('MapField', 'mapper');
+    $mapper = $this->controller->exportValue('MapFields', 'mapper');
     $mapperKeys = [];
 
     foreach ($mapper as $key => $value) {
