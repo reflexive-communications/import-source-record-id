@@ -1,5 +1,7 @@
 # import-source-record-id
 
+[![CI](https://github.com/reflexive-communications/import-source-record-id/actions/workflows/main.yml/badge.svg)](https://github.com/reflexive-communications/import-source-record-id/actions/workflows/main.yml)
+
 This extension provides a custom importer.
 
 Activity import where the source record id mapping is also possible. If you want to execute this importer, navigate to

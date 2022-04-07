@@ -1,4 +1,3 @@
 /.phpunit.result.cache
 /.php-cs-fixer.cache
-/coverage/
 /tests/phpunit/CRM/ImportSourceRecordId/Activity/SourceRecordId/Form/test.csv.error.log

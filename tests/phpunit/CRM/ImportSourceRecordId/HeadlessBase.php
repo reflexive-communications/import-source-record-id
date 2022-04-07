@@ -31,12 +31,12 @@ class CRM_ImportSourceRecordId_HeadlessBase extends \PHPUnit\Framework\TestCase 
             ->apply();
     }
 
-    public function setUp():void
+    public function setUp(): void
     {
         parent::setUp();
     }
 
-    public function tearDown():void
+    public function tearDown(): void
     {
         parent::tearDown();
     }
