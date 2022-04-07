@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <extension key="import-source-record-id" type="module">
     <file>import_source_record_id</file>
-    <name>Import Activites (source record ID)</name>
+    <name>Import Activities (source record ID)</name>
     <description>Import activities, optionally set source record ID field for imported activities</description>
     <license>AGPL-3.0</license>
     <maintainer>
