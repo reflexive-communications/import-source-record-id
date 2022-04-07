@@ -11,7 +11,7 @@ class CRM_ImportSourceRecordId_Activity_SourceRecordId_ControllerTest extends CR
      * It tests the class constructor.
      * The state machine has to be our custom one.
      */
-    public function testConstructor():void
+    public function testConstructor(): void
     {
         $controller = new CRM_ImportSourceRecordId_Activity_SourceRecordId_Controller();
         $sm = $controller->getStateMachine();
